@@ -271,7 +271,7 @@ async def main():
 HEADERS = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {config.OPENAI_API_KEY}",
-    "OpenAI-Organization": {config.ORG_ID}
+    "OpenAI-Organization": config.ORG_ID
 }
 
 # Setup other important constants
